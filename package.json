@@ -1,0 +1,21 @@
+{
+  "name": "nike-in",
+  "version": "1.0.0",
+  "description": "Nike SNKRS India Monitor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm  index.js"
+  },
+  "author": "Groovy Gorilla",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.6",
+    "request": "^2.88.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "request-promise": "^4.2.6",
+    "touch-cli": "0.0.1"
+  }
+}
+
